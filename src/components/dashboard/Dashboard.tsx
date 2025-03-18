@@ -3,7 +3,7 @@
 import React from 'react';
 
 const Dashboard = () => {
-  return <div className="item-center text-red-500">Dashboard</div>;
+  return <div className="bg-white rounded-lg pb-4 shadow h-[200vh]"></div>;
 };
 
 export default Dashboard;

@@ -1,12 +1,20 @@
 /** @format */
 
 import React from 'react';
-import Dashboard from '../dashboard/Dashboard';
+import AccountToggle from './AccountToggle';
+import RouteSelect from './RouteSelect';
+import Plan from './Plan';
+import { Search } from './Search';
 
 const Sidebar = () => {
   return (
     <div>
-      <Dashboard />
+      <div className="overflow-y-scroll sticky top-4 h-[calc(100vh-32px-48px)]">
+        <AccountToggle />
+        <Search />
+        <RouteSelect />
+      </div>
+      <Plan />
     </div>
   );
 };
