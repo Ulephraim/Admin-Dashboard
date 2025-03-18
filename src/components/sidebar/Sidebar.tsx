@@ -1,10 +1,10 @@
 /** @format */
 
 import React from 'react';
-import AccountToggle from './AccountToggle';
-import RouteSelect from './RouteSelect';
-import Plan from './Plan';
 import { Search } from './Search';
+import { RouteSelect } from './RouteSelect';
+import { AccountToggle } from './AccountToggle';
+import { Plan } from './Plan';
 
 const Sidebar = () => {
   return (
