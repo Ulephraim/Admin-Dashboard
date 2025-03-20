@@ -38,6 +38,9 @@ export const CommandMenu = ({
         onClick={(e) => e.stopPropagation()}
         className="bg-white rounded-lg shadow-xl border-stone-300 border overflow-hidden w-full max-w-lg mx-auto mt-12"
       >
+        {/* Manually adding a title for accessibility */}
+        <h2 className="p-3 text-lg font-semibold">Global Command Menu</h2>
+
         <Command.Input
           value={value}
           onValueChange={setValue}
